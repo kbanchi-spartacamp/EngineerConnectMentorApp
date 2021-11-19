@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests
+@end
