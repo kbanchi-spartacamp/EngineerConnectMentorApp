@@ -18,6 +18,11 @@
 		80C3DE652747B2B1005F8354 /* EngineerConnectMentorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE642747B2B1005F8354 /* EngineerConnectMentorAppTests.swift */; };
 		80C3DE6F2747B2B1005F8354 /* EngineerConnectMentorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE6E2747B2B1005F8354 /* EngineerConnectMentorAppUITests.swift */; };
 		80C3DE712747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE702747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift */; };
+		80C3DE7F2747BF65005F8354 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE7E2747BF65005F8354 /* LoginViewController.swift */; };
+		80C3DE812747BF8D005F8354 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE802747BF8D005F8354 /* ScheduleViewController.swift */; };
+		80C3DE832747BFBE005F8354 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE822747BFBE005F8354 /* OtherViewController.swift */; };
+		80C3DE852747C277005F8354 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE842747C277005F8354 /* SampleViewController.swift */; };
+		80C3DE882747C2EB005F8354 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE872747C2EB005F8354 /* Mentor.swift */; };
 		A3499A9F8B44E0E4E1179361 /* Pods_EngineerConnectMentorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F68279D5DCA3C65E23924 /* Pods_EngineerConnectMentorApp.framework */; };
 		D8CE24169D78D68258942668 /* Pods_EngineerConnectMentorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5DED3247D5D9ED0B405963 /* Pods_EngineerConnectMentorAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +64,11 @@
 		80C3DE6A2747B2B1005F8354 /* EngineerConnectMentorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineerConnectMentorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C3DE6E2747B2B1005F8354 /* EngineerConnectMentorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerConnectMentorAppUITests.swift; sourceTree = "<group>"; };
 		80C3DE702747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerConnectMentorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80C3DE7E2747BF65005F8354 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80C3DE802747BF8D005F8354 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		80C3DE822747BFBE005F8354 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		80C3DE842747C277005F8354 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		80C3DE872747C2EB005F8354 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		8E36F0D66C6E246079ADE93C /* Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A721C3F51262BD8F6565E2A /* Pods-EngineerConnectMentorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorApp.release.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorApp/Pods-EngineerConnectMentorApp.release.xcconfig"; sourceTree = "<group>"; };
 		C8E37EB6CD18F6078E4F01BC /* Pods-EngineerConnectMentorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorAppTests.release.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorAppTests/Pods-EngineerConnectMentorAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +113,6 @@
 				4DE7537657CFF2E1651BA59E /* Pods-EngineerConnectMentorAppTests.debug.xcconfig */,
 				C8E37EB6CD18F6078E4F01BC /* Pods-EngineerConnectMentorAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,6 +141,8 @@
 		80C3DE492747B2B0005F8354 /* EngineerConnectMentorApp */ = {
 			isa = PBXGroup;
 			children = (
+				80C3DE862747C2D9005F8354 /* models */,
+				80C3DE7D2747BF49005F8354 /* controllers */,
 				80C3DE4A2747B2B0005F8354 /* AppDelegate.swift */,
 				80C3DE4C2747B2B0005F8354 /* SceneDelegate.swift */,
 				80C3DE4E2747B2B0005F8354 /* ViewController.swift */,
@@ -159,6 +170,25 @@
 				80C3DE702747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift */,
 			);
 			path = EngineerConnectMentorAppUITests;
+			sourceTree = "<group>";
+		};
+		80C3DE7D2747BF49005F8354 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C3DE7E2747BF65005F8354 /* LoginViewController.swift */,
+				80C3DE802747BF8D005F8354 /* ScheduleViewController.swift */,
+				80C3DE822747BFBE005F8354 /* OtherViewController.swift */,
+				80C3DE842747C277005F8354 /* SampleViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		80C3DE862747C2D9005F8354 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				80C3DE872747C2EB005F8354 /* Mentor.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 		B943E6752C9ACC84FE2F2AAF /* Frameworks */ = {
@@ -412,7 +442,12 @@
 			files = (
 				80C3DE4F2747B2B0005F8354 /* ViewController.swift in Sources */,
 				80C3DE4B2747B2B0005F8354 /* AppDelegate.swift in Sources */,
+				80C3DE832747BFBE005F8354 /* OtherViewController.swift in Sources */,
 				80C3DE552747B2B0005F8354 /* EngineerConnectMentorApp.xcdatamodeld in Sources */,
+				80C3DE812747BF8D005F8354 /* ScheduleViewController.swift in Sources */,
+				80C3DE7F2747BF65005F8354 /* LoginViewController.swift in Sources */,
+				80C3DE882747C2EB005F8354 /* Mentor.swift in Sources */,
+				80C3DE852747C277005F8354 /* SampleViewController.swift in Sources */,
 				80C3DE4D2747B2B0005F8354 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
