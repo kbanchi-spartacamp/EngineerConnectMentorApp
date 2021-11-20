@@ -41,7 +41,8 @@ class SampleViewController: UIViewController {
                     let mentor = Mentor(
                         id: mentors["id"].int!,
                         name: mentors["name"].string!,
-                        email: mentors["email"].string!
+                        email: mentors["email"].string!,
+                        profile_photo_url: mentors["profile_photo_url"].string!
                     )
                     self.mentors.append(mentor)
                 }
