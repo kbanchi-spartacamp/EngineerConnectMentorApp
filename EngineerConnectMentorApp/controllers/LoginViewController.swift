@@ -24,6 +24,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // clear keychain
+//        let keychain = Keychain(service: consts.service)
+//        keychain["access_token"] = nil
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -92,7 +96,8 @@ class LoginViewController: UIViewController {
                     id: json["id"].int!,
                     name: json["name"].string!,
                     email: json["email"].string!,
-                    profile_photo_url: json["profile_photo_url"].string!
+                    profile: json["profile"].string ?? "",
+                    profile_photo_url: json["profile_photo_url"].string ?? ""
                 )
                 //キーを設定して保存
                 keychain["mentor_id"] = String(mentor.id)

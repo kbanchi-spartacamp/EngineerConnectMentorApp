@@ -1,16 +1,15 @@
 //
-//  Mentor.swift
+//  User.swift
 //  EngineerConnectMentorApp
 //
-//  Created by 伴地慶介 on 2021/11/19.
+//  Created by 伴地慶介 on 2021/11/23.
 //
 
 import Foundation
 
-struct Mentor {
+struct User {
     let id: Int
     let name: String
     let email: String
-    let profile: String
     let profile_photo_url: String
 }
