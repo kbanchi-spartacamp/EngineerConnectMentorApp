@@ -61,6 +61,143 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="CHe-GN-Cz5">
+            <objects>
+                <viewController id="yzB-OE-V8G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xm7-hC-eUK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ARE-vE-N5s">
+                                <rect key="frame" x="52" y="194" width="310" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="b8f-bx-COs"/>
+                                    <constraint firstAttribute="height" constant="40" id="pAN-bf-ZZC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8gK-zs-wAe">
+                                <rect key="frame" x="52" y="284" width="310" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="2YY-t3-qvW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="310" id="PZd-I6-o7W"/>
+                                    <constraint firstAttribute="width" constant="310" id="RiN-cG-68C"/>
+                                    <constraint firstAttribute="height" constant="40" id="fBo-Or-fft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HBT-Lz-Y4C">
+                                <rect key="frame" x="52" y="374" width="310" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="310" id="FaI-Ku-kcK"/>
+                                    <constraint firstAttribute="width" constant="310" id="ZVP-Oq-Qrg"/>
+                                    <constraint firstAttribute="height" constant="40" id="kz6-Hz-YSV"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="ttZ-EL-jkI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password ( verify )" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3VO-rR-sc1">
+                                <rect key="frame" x="52" y="464" width="310" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="42D-rm-CyX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="310" id="768-YN-jLX"/>
+                                    <constraint firstAttribute="height" constant="40" id="D7d-Lm-J9S"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="N29-gR-TOt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9F-rS-AFo">
+                                <rect key="frame" x="122" y="564" width="170" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="Xxa-na-j1J"/>
+                                    <constraint firstAttribute="height" constant="70" id="d6b-lK-Vo5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="登録">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ePh-5A-boT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HBT-Lz-Y4C" firstAttribute="top" secondItem="8gK-zs-wAe" secondAttribute="bottom" constant="50" id="4Jf-kR-4YO"/>
+                            <constraint firstItem="U9F-rS-AFo" firstAttribute="centerX" secondItem="xm7-hC-eUK" secondAttribute="centerX" id="FCj-ZI-94g"/>
+                            <constraint firstItem="8gK-zs-wAe" firstAttribute="centerX" secondItem="xm7-hC-eUK" secondAttribute="centerX" id="HkK-3c-7Bk"/>
+                            <constraint firstItem="U9F-rS-AFo" firstAttribute="centerX" secondItem="xm7-hC-eUK" secondAttribute="centerX" id="Ihf-fg-xCn"/>
+                            <constraint firstItem="8gK-zs-wAe" firstAttribute="top" secondItem="ARE-vE-N5s" secondAttribute="bottom" constant="50" id="PBO-Qc-f5m"/>
+                            <constraint firstItem="ARE-vE-N5s" firstAttribute="top" secondItem="ePh-5A-boT" secondAttribute="top" constant="150" id="ZYE-TD-TKw"/>
+                            <constraint firstItem="3VO-rR-sc1" firstAttribute="top" secondItem="HBT-Lz-Y4C" secondAttribute="bottom" constant="50" id="aaq-W6-oXP"/>
+                            <constraint firstItem="3VO-rR-sc1" firstAttribute="centerX" secondItem="xm7-hC-eUK" secondAttribute="centerX" id="dUM-nr-NxP"/>
+                            <constraint firstItem="U9F-rS-AFo" firstAttribute="top" secondItem="3VO-rR-sc1" secondAttribute="bottom" constant="60" id="iqV-1v-nWI"/>
+                            <constraint firstItem="HBT-Lz-Y4C" firstAttribute="centerX" secondItem="xm7-hC-eUK" secondAttribute="centerX" id="kIJ-Hj-Khc"/>
+                            <constraint firstItem="ARE-vE-N5s" firstAttribute="centerX" secondItem="xm7-hC-eUK" secondAttribute="centerX" id="zRa-f8-Hnt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hNv-fF-LZW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="794"/>
+        </scene>
+        <!--スケジュール登録-->
+        <scene sceneID="4rU-IP-DXA">
+            <objects>
+                <viewController id="UUm-YS-9KT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3go-d8-smA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="スケジュール登録" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-yT-hz4">
+                                <rect key="frame" x="138" y="125" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本日の予定を登録してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cb-Fm-br1">
+                                <rect key="frame" x="44" y="196" width="243" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-kJ-ZRE">
+                                <rect key="frame" x="246" y="395" width="124" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="追加">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2n4-lN-tdi">
+                                <rect key="frame" x="0.0" y="225" width="414" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="定時の予定を登録してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rc6-SJ-l0G">
+                                <rect key="frame" x="44" y="453" width="243" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lkQ-Om-ZWd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="スケジュール登録" image="highlighter" catalog="system" id="DWI-7d-lmz"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oq3-FP-E24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521.73913043478262" y="793.52678571428567"/>
+        </scene>
         <!--その他-->
         <scene sceneID="bqk-AO-7OB">
             <objects>
@@ -149,9 +286,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="highlighter" catalog="system" width="128" height="119"/>
         <image name="logo" width="284" height="284"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
