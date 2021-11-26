@@ -19,6 +19,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,8 @@ class LoginViewController: UIViewController {
         // clear keychain
 //        let keychain = Keychain(service: consts.service)
 //        keychain["access_token"] = nil
+        
+        loginButton.layer.cornerRadius = 10.0
     }
     
     override func viewDidAppear(_ animated: Bool) {

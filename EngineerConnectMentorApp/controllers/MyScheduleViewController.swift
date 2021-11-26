@@ -1,13 +1,13 @@
 //
-//  OtherViewController.swift
+//  MyScheduleViewController.swift
 //  EngineerConnectMentorApp
 //
-//  Created by 伴地慶介 on 2021/11/19.
+//  Created by 伴地慶介 on 2021/11/26.
 //
 
 import UIKit
 
-class OtherViewController: UIViewController {
+class MyScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
