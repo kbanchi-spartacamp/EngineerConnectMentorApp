@@ -10,6 +10,7 @@ import AuthenticationServices
 import Alamofire
 import SwiftyJSON
 import KeychainAccess
+import PKHUD
 
 class LoginViewController: UIViewController {
 
@@ -55,6 +56,7 @@ class LoginViewController: UIViewController {
     }
     
     func getAccessToken() {
+        HUD.show(.progress)
         let url = URL(string: consts.baseUrl + "/mentor/login")!
         let headers: HTTPHeaders = [
             "Content-Type": "application/json",
@@ -77,9 +79,11 @@ class LoginViewController: UIViewController {
                 //キーを設定して保存
                 keychain["access_token"] = accessToken
                 self.getUserInfo(accessToken: accessToken)
+                HUD.hide()
             case .failure(let err):
                 print("### ERROR ###")
                 print(err.localizedDescription)
+                HUD.hide()
             }
         }
     }
