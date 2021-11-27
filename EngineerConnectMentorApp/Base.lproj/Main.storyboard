@@ -261,6 +261,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="スケジュール設定" image="highlighter" catalog="system" id="DWI-7d-lmz"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="todayPickerView" destination="2n4-lN-tdi" id="TLh-Ol-R81"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oq3-FP-E24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -379,8 +382,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="OcJ-Gy-8mh" kind="relationship" relationship="viewControllers" id="f6c-PH-hzY"/>
-                        <segue destination="UUm-YS-9KT" kind="relationship" relationship="viewControllers" id="IZY-Ij-cej"/>
-                        <segue destination="kYB-Kz-Zlv" kind="relationship" relationship="viewControllers" id="1VN-q9-0IE"/>
                         <segue destination="HwY-bu-GBR" kind="relationship" relationship="viewControllers" id="1kn-eQ-pv4"/>
                     </connections>
                 </tabBarController>
