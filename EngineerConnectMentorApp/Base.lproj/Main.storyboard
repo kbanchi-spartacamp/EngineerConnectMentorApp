@@ -221,7 +221,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-kJ-ZRE">
-                                <rect key="frame" x="270" y="389" width="124" height="31"/>
+                                <rect key="frame" x="270" y="342" width="124" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="追加">
@@ -230,18 +230,18 @@
                                 </buttonConfiguration>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2n4-lN-tdi">
-                                <rect key="frame" x="0.0" y="201" width="414" height="162"/>
+                                <rect key="frame" x="0.0" y="201" width="414" height="110"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="定時の予定を登録してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rc6-SJ-l0G">
-                                <rect key="frame" x="86" y="464" width="243" height="21"/>
+                                <rect key="frame" x="86" y="417" width="243" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkq-o4-dml">
-                                <rect key="frame" x="270" y="675" width="124" height="31"/>
+                                <rect key="frame" x="270" y="761" width="124" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="追加">
@@ -249,6 +249,14 @@
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                             </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xB7-Q9-HSI">
+                                <rect key="frame" x="31" y="458" width="353" height="101"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zih-Hg-dxq">
+                                <rect key="frame" x="31" y="610" width="353" height="101"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lkQ-Om-ZWd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -262,12 +270,30 @@
                     <tabBarItem key="tabBarItem" title="スケジュール設定" image="highlighter" catalog="system" id="DWI-7d-lmz"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="dayOfWeekPickerView" destination="xB7-Q9-HSI" id="Hwc-rv-4ba"/>
+                        <outlet property="regularTimePickerView" destination="zih-Hg-dxq" id="NEC-jE-o3n"/>
                         <outlet property="todayPickerView" destination="2n4-lN-tdi" id="TLh-Ol-R81"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oq3-FP-E24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1667" y="445"/>
+            <point key="canvasLocation" x="1666.6666666666667" y="444.64285714285711"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="uop-Qm-IZz">
+            <objects>
+                <viewController id="lXq-Dl-Qcs" customClass="PickerSampleViewController" customModule="EngineerConnectMentorApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h4T-15-Oov">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rb6-hL-rEB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="yEc-mX-g8z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1IK-aC-lFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="-598"/>
         </scene>
         <!--予定-->
         <scene sceneID="bbO-zD-KcK">
@@ -382,7 +408,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="OcJ-Gy-8mh" kind="relationship" relationship="viewControllers" id="f6c-PH-hzY"/>
-                        <segue destination="HwY-bu-GBR" kind="relationship" relationship="viewControllers" id="1kn-eQ-pv4"/>
+                        <segue destination="UUm-YS-9KT" kind="relationship" relationship="viewControllers" id="2sK-4l-LPc"/>
+                        <segue destination="kYB-Kz-Zlv" kind="relationship" relationship="viewControllers" id="h5z-iN-BwC"/>
+                        <segue destination="HwY-bu-GBR" kind="relationship" relationship="viewControllers" id="2F3-tc-dzO"/>
+                        <segue destination="lXq-Dl-Qcs" kind="relationship" relationship="viewControllers" id="fmb-A9-4We"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MyB-VB-93v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

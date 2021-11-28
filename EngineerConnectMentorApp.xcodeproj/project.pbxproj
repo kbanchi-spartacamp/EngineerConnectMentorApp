@@ -17,6 +17,7 @@
 		804A2CE9275075F30089656A /* SkillSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CE8275075F30089656A /* SkillSettingViewController.swift */; };
 		804A2CEB275076E60089656A /* MentorSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CEA275076E60089656A /* MentorSkill.swift */; };
 		804A2CED27507F6B0089656A /* SkillCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CEC27507F6B0089656A /* SkillCategory.swift */; };
+		808F5123275325E3003FE35C /* PickerSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F5122275325E3003FE35C /* PickerSampleViewController.swift */; };
 		80C3DE4B2747B2B0005F8354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE4A2747B2B0005F8354 /* AppDelegate.swift */; };
 		80C3DE4D2747B2B0005F8354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE4C2747B2B0005F8354 /* SceneDelegate.swift */; };
 		80C3DE4F2747B2B0005F8354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE4E2747B2B0005F8354 /* ViewController.swift */; };
@@ -68,6 +69,7 @@
 		804A2CE8275075F30089656A /* SkillSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSettingViewController.swift; sourceTree = "<group>"; };
 		804A2CEA275076E60089656A /* MentorSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorSkill.swift; sourceTree = "<group>"; };
 		804A2CEC27507F6B0089656A /* SkillCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCategory.swift; sourceTree = "<group>"; };
+		808F5122275325E3003FE35C /* PickerSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSampleViewController.swift; sourceTree = "<group>"; };
 		80C3DE472747B2B0005F8354 /* EngineerConnectMentorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineerConnectMentorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C3DE4A2747B2B0005F8354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C3DE4C2747B2B0005F8354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				804A2CE42750723C0089656A /* SettingTableViewController.swift */,
 				804A2CE6275075DF0089656A /* MyScheduleViewController.swift */,
 				804A2CE8275075F30089656A /* SkillSettingViewController.swift */,
+				808F5122275325E3003FE35C /* PickerSampleViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				80F9E155274931F4003D07E7 /* Reservation.swift in Sources */,
 				80C3DE552747B2B0005F8354 /* EngineerConnectMentorApp.xcdatamodeld in Sources */,
 				80C3DE812747BF8D005F8354 /* ScheduleViewController.swift in Sources */,
+				808F5123275325E3003FE35C /* PickerSampleViewController.swift in Sources */,
 				804A2CE3275070150089656A /* Alert.swift in Sources */,
 				80F9E15127492A1C003D07E7 /* Constants.swift in Sources */,
 				80C3DE7F2747BF65005F8354 /* LoginViewController.swift in Sources */,
