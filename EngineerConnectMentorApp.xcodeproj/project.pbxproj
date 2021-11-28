@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49F568F0005F6C98217439EA /* Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E36F0D66C6E246079ADE93C /* Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework */; };
+		8003D1AB274D2D5F0073ADEE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003D1AA274D2D5F0073ADEE /* User.swift */; };
+		804A2CDE27506CEF0089656A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CDD27506CEF0089656A /* WelcomeViewController.swift */; };
+		804A2CE027506F600089656A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CDF27506F600089656A /* RegisterViewController.swift */; };
+		804A2CE3275070150089656A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CE2275070150089656A /* Alert.swift */; };
+		804A2CE52750723C0089656A /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CE42750723C0089656A /* SettingTableViewController.swift */; };
+		804A2CE7275075DF0089656A /* MyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CE6275075DF0089656A /* MyScheduleViewController.swift */; };
+		804A2CE9275075F30089656A /* SkillSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CE8275075F30089656A /* SkillSettingViewController.swift */; };
+		804A2CEB275076E60089656A /* MentorSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CEA275076E60089656A /* MentorSkill.swift */; };
+		804A2CED27507F6B0089656A /* SkillCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A2CEC27507F6B0089656A /* SkillCategory.swift */; };
 		80C3DE4B2747B2B0005F8354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE4A2747B2B0005F8354 /* AppDelegate.swift */; };
 		80C3DE4D2747B2B0005F8354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE4C2747B2B0005F8354 /* SceneDelegate.swift */; };
 		80C3DE4F2747B2B0005F8354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE4E2747B2B0005F8354 /* ViewController.swift */; };
@@ -17,6 +27,13 @@
 		80C3DE652747B2B1005F8354 /* EngineerConnectMentorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE642747B2B1005F8354 /* EngineerConnectMentorAppTests.swift */; };
 		80C3DE6F2747B2B1005F8354 /* EngineerConnectMentorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE6E2747B2B1005F8354 /* EngineerConnectMentorAppUITests.swift */; };
 		80C3DE712747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE702747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift */; };
+		80C3DE7F2747BF65005F8354 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE7E2747BF65005F8354 /* LoginViewController.swift */; };
+		80C3DE812747BF8D005F8354 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE802747BF8D005F8354 /* ScheduleViewController.swift */; };
+		80C3DE882747C2EB005F8354 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C3DE872747C2EB005F8354 /* Mentor.swift */; };
+		80F9E15127492A1C003D07E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9E15027492A1C003D07E7 /* Constants.swift */; };
+		80F9E155274931F4003D07E7 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9E154274931F4003D07E7 /* Reservation.swift */; };
+		A3499A9F8B44E0E4E1179361 /* Pods_EngineerConnectMentorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F68279D5DCA3C65E23924 /* Pods_EngineerConnectMentorApp.framework */; };
+		D8CE24169D78D68258942668 /* Pods_EngineerConnectMentorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5DED3247D5D9ED0B405963 /* Pods_EngineerConnectMentorAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +54,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31AEB71E52D2C20429A0C426 /* Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.release.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A9C2BEF52AD852E7D40FAEB /* Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DE7537657CFF2E1651BA59E /* Pods-EngineerConnectMentorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorAppTests/Pods-EngineerConnectMentorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F5DED3247D5D9ED0B405963 /* Pods_EngineerConnectMentorAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerConnectMentorAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDB2F991AF8D144DD2C9C7C /* Pods-EngineerConnectMentorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorApp.debug.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorApp/Pods-EngineerConnectMentorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8003D1AA274D2D5F0073ADEE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		804A2CDD27506CEF0089656A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		804A2CDF27506F600089656A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		804A2CE2275070150089656A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		804A2CE42750723C0089656A /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		804A2CE6275075DF0089656A /* MyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScheduleViewController.swift; sourceTree = "<group>"; };
+		804A2CE8275075F30089656A /* SkillSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSettingViewController.swift; sourceTree = "<group>"; };
+		804A2CEA275076E60089656A /* MentorSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorSkill.swift; sourceTree = "<group>"; };
+		804A2CEC27507F6B0089656A /* SkillCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCategory.swift; sourceTree = "<group>"; };
 		80C3DE472747B2B0005F8354 /* EngineerConnectMentorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineerConnectMentorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C3DE4A2747B2B0005F8354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C3DE4C2747B2B0005F8354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +82,15 @@
 		80C3DE6A2747B2B1005F8354 /* EngineerConnectMentorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineerConnectMentorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C3DE6E2747B2B1005F8354 /* EngineerConnectMentorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerConnectMentorAppUITests.swift; sourceTree = "<group>"; };
 		80C3DE702747B2B1005F8354 /* EngineerConnectMentorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerConnectMentorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80C3DE7E2747BF65005F8354 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80C3DE802747BF8D005F8354 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		80C3DE872747C2EB005F8354 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		80F9E15027492A1C003D07E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80F9E154274931F4003D07E7 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		8E36F0D66C6E246079ADE93C /* Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A721C3F51262BD8F6565E2A /* Pods-EngineerConnectMentorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorApp.release.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorApp/Pods-EngineerConnectMentorApp.release.xcconfig"; sourceTree = "<group>"; };
+		C8E37EB6CD18F6078E4F01BC /* Pods-EngineerConnectMentorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerConnectMentorAppTests.release.xcconfig"; path = "Target Support Files/Pods-EngineerConnectMentorAppTests/Pods-EngineerConnectMentorAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC6F68279D5DCA3C65E23924 /* Pods_EngineerConnectMentorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerConnectMentorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3499A9F8B44E0E4E1179361 /* Pods_EngineerConnectMentorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CE24169D78D68258942668 /* Pods_EngineerConnectMentorAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +114,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F568F0005F6C98217439EA /* Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE0A0CE79145E15063F2CAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CDB2F991AF8D144DD2C9C7C /* Pods-EngineerConnectMentorApp.debug.xcconfig */,
+				9A721C3F51262BD8F6565E2A /* Pods-EngineerConnectMentorApp.release.xcconfig */,
+				4A9C2BEF52AD852E7D40FAEB /* Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.debug.xcconfig */,
+				31AEB71E52D2C20429A0C426 /* Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.release.xcconfig */,
+				4DE7537657CFF2E1651BA59E /* Pods-EngineerConnectMentorAppTests.debug.xcconfig */,
+				C8E37EB6CD18F6078E4F01BC /* Pods-EngineerConnectMentorAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		804A2CE12750700B0089656A /* commons */ = {
+			isa = PBXGroup;
+			children = (
+				804A2CE2275070150089656A /* Alert.swift */,
+			);
+			path = commons;
+			sourceTree = "<group>";
+		};
 		80C3DE3E2747B2B0005F8354 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +149,8 @@
 				80C3DE632747B2B1005F8354 /* EngineerConnectMentorAppTests */,
 				80C3DE6D2747B2B1005F8354 /* EngineerConnectMentorAppUITests */,
 				80C3DE482747B2B0005F8354 /* Products */,
+				2FE0A0CE79145E15063F2CAE /* Pods */,
+				B943E6752C9ACC84FE2F2AAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +167,10 @@
 		80C3DE492747B2B0005F8354 /* EngineerConnectMentorApp */ = {
 			isa = PBXGroup;
 			children = (
+				804A2CE12750700B0089656A /* commons */,
+				80F9E14F27492A09003D07E7 /* constants */,
+				80C3DE862747C2D9005F8354 /* models */,
+				80C3DE7D2747BF49005F8354 /* controllers */,
 				80C3DE4A2747B2B0005F8354 /* AppDelegate.swift */,
 				80C3DE4C2747B2B0005F8354 /* SceneDelegate.swift */,
 				80C3DE4E2747B2B0005F8354 /* ViewController.swift */,
@@ -130,6 +200,50 @@
 			path = EngineerConnectMentorAppUITests;
 			sourceTree = "<group>";
 		};
+		80C3DE7D2747BF49005F8354 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C3DE7E2747BF65005F8354 /* LoginViewController.swift */,
+				80C3DE802747BF8D005F8354 /* ScheduleViewController.swift */,
+				804A2CDD27506CEF0089656A /* WelcomeViewController.swift */,
+				804A2CDF27506F600089656A /* RegisterViewController.swift */,
+				804A2CE42750723C0089656A /* SettingTableViewController.swift */,
+				804A2CE6275075DF0089656A /* MyScheduleViewController.swift */,
+				804A2CE8275075F30089656A /* SkillSettingViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		80C3DE862747C2D9005F8354 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				80C3DE872747C2EB005F8354 /* Mentor.swift */,
+				80F9E154274931F4003D07E7 /* Reservation.swift */,
+				8003D1AA274D2D5F0073ADEE /* User.swift */,
+				804A2CEA275076E60089656A /* MentorSkill.swift */,
+				804A2CEC27507F6B0089656A /* SkillCategory.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		80F9E14F27492A09003D07E7 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				80F9E15027492A1C003D07E7 /* Constants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		B943E6752C9ACC84FE2F2AAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F68279D5DCA3C65E23924 /* Pods_EngineerConnectMentorApp.framework */,
+				8E36F0D66C6E246079ADE93C /* Pods_EngineerConnectMentorApp_EngineerConnectMentorAppUITests.framework */,
+				5F5DED3247D5D9ED0B405963 /* Pods_EngineerConnectMentorAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C3DE742747B2B1005F8354 /* Build configuration list for PBXNativeTarget "EngineerConnectMentorApp" */;
 			buildPhases = (
+				FE5D21DDFB09F67F10D2894E /* [CP] Check Pods Manifest.lock */,
 				80C3DE432747B2B0005F8354 /* Sources */,
 				80C3DE442747B2B0005F8354 /* Frameworks */,
 				80C3DE452747B2B0005F8354 /* Resources */,
+				ADEB38836D0355E74845F26D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C3DE772747B2B1005F8354 /* Build configuration list for PBXNativeTarget "EngineerConnectMentorAppTests" */;
 			buildPhases = (
+				8EE355CAF5355646EB3A028B /* [CP] Check Pods Manifest.lock */,
 				80C3DE5C2747B2B1005F8354 /* Sources */,
 				80C3DE5D2747B2B1005F8354 /* Frameworks */,
 				80C3DE5E2747B2B1005F8354 /* Resources */,
@@ -172,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C3DE7A2747B2B1005F8354 /* Build configuration list for PBXNativeTarget "EngineerConnectMentorAppUITests" */;
 			buildPhases = (
+				71A20C676CE831C5C0F3E71C /* [CP] Check Pods Manifest.lock */,
 				80C3DE662747B2B1005F8354 /* Sources */,
 				80C3DE672747B2B1005F8354 /* Frameworks */,
 				80C3DE682747B2B1005F8354 /* Resources */,
+				25F3D9D0F9FB08F7F11ED575 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +375,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25F3D9D0F9FB08F7F11ED575 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A20C676CE831C5C0F3E71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE355CAF5355646EB3A028B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EngineerConnectMentorAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEB38836D0355E74845F26D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EngineerConnectMentorApp/Pods-EngineerConnectMentorApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EngineerConnectMentorApp/Pods-EngineerConnectMentorApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EngineerConnectMentorApp/Pods-EngineerConnectMentorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5D21DDFB09F67F10D2894E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EngineerConnectMentorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80C3DE432747B2B0005F8354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,8 +485,22 @@
 			files = (
 				80C3DE4F2747B2B0005F8354 /* ViewController.swift in Sources */,
 				80C3DE4B2747B2B0005F8354 /* AppDelegate.swift in Sources */,
+				80F9E155274931F4003D07E7 /* Reservation.swift in Sources */,
 				80C3DE552747B2B0005F8354 /* EngineerConnectMentorApp.xcdatamodeld in Sources */,
+				80C3DE812747BF8D005F8354 /* ScheduleViewController.swift in Sources */,
+				804A2CE3275070150089656A /* Alert.swift in Sources */,
+				80F9E15127492A1C003D07E7 /* Constants.swift in Sources */,
+				80C3DE7F2747BF65005F8354 /* LoginViewController.swift in Sources */,
+				804A2CE52750723C0089656A /* SettingTableViewController.swift in Sources */,
+				80C3DE882747C2EB005F8354 /* Mentor.swift in Sources */,
+				804A2CDE27506CEF0089656A /* WelcomeViewController.swift in Sources */,
+				804A2CE7275075DF0089656A /* MyScheduleViewController.swift in Sources */,
+				804A2CE027506F600089656A /* RegisterViewController.swift in Sources */,
 				80C3DE4D2747B2B0005F8354 /* SceneDelegate.swift in Sources */,
+				804A2CE9275075F30089656A /* SkillSettingViewController.swift in Sources */,
+				804A2CED27507F6B0089656A /* SkillCategory.swift in Sources */,
+				8003D1AB274D2D5F0073ADEE /* User.swift in Sources */,
+				804A2CEB275076E60089656A /* MentorSkill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +674,7 @@
 		};
 		80C3DE752747B2B1005F8354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDB2F991AF8D144DD2C9C7C /* Pods-EngineerConnectMentorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +703,7 @@
 		};
 		80C3DE762747B2B1005F8354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A721C3F51262BD8F6565E2A /* Pods-EngineerConnectMentorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +732,7 @@
 		};
 		80C3DE782747B2B1005F8354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE7537657CFF2E1651BA59E /* Pods-EngineerConnectMentorAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +758,7 @@
 		};
 		80C3DE792747B2B1005F8354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E37EB6CD18F6078E4F01BC /* Pods-EngineerConnectMentorAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +784,7 @@
 		};
 		80C3DE7B2747B2B1005F8354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9C2BEF52AD852E7D40FAEB /* Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +808,7 @@
 		};
 		80C3DE7C2747B2B1005F8354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AEB71E52D2C20429A0C426 /* Pods-EngineerConnectMentorApp-EngineerConnectMentorAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
